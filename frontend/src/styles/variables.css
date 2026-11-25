@@ -1,0 +1,109 @@
+:root {
+  /* Deep Midnight Navy & Charcoal Surface Hierarchy */
+  --bg-primary: #06080f;
+  --bg-secondary: #0b101d;
+  --bg-elevated: #111829;
+  --bg-tertiary: #192238;
+  --bg-card: rgba(13, 19, 34, 0.72);
+  --bg-card-solid: #0d1322;
+  --bg-card-hover: rgba(20, 29, 50, 0.84);
+  --bg-glass: rgba(10, 15, 28, 0.68);
+  --bg-input: rgba(15, 23, 42, 0.65);
+
+  /* Refined Translucent Borders */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.13);
+  --border-hover: rgba(129, 140, 248, 0.42);
+  --border-focus: #818cf8;
+
+  /* Sophisticated Typography Scale */
+  --text-primary: #f8fafc;
+  --text-secondary: #a1b0c8;
+  --text-muted: #6c7c99;
+  --text-accent: #38bdf8;
+  --text-violet: #a78bfa;
+
+  /* Brand & Ambient Accents */
+  --brand-primary: #6366f1;
+  --brand-indigo: #818cf8;
+  --brand-violet: #8b5cf6;
+  --brand-cyan: #06b6d4;
+  --brand-sky: #38bdf8;
+  --brand-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+  --brand-gradient-subtle: linear-gradient(135deg, rgba(99, 102, 241, 0.16) 0%, rgba(6, 182, 212, 0.12) 100%);
+  --brand-glow: rgba(99, 102, 241, 0.28);
+
+  /* Modality Identity Tokens */
+  --modality-image: #f472b6;
+  --modality-image-bg: rgba(244, 114, 182, 0.12);
+  --modality-image-border: rgba(244, 114, 182, 0.32);
+
+  --modality-audio: #fbbf24;
+  --modality-audio-bg: rgba(251, 191, 36, 0.12);
+  --modality-audio-border: rgba(251, 191, 36, 0.32);
+
+  --modality-text: #34d399;
+  --modality-text-bg: rgba(52, 211, 153, 0.12);
+  --modality-text-border: rgba(52, 211, 153, 0.32);
+
+  --modality-doc: #a78bfa;
+  --modality-doc-bg: rgba(167, 139, 250, 0.12);
+  --modality-doc-border: rgba(167, 139, 250, 0.32);
+
+  /* Semantic Status Colors */
+  --status-success: #10b981;
+  --status-success-bg: rgba(16, 185, 129, 0.14);
+  --status-warning: #f59e0b;
+  --status-warning-bg: rgba(245, 158, 11, 0.14);
+  --status-error: #ef4444;
+  --status-error-bg: rgba(239, 68, 68, 0.14);
+  --status-info: #38bdf8;
+  --status-info-bg: rgba(56, 189, 248, 0.14);
+
+  /* Elevation & Shadows */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  --shadow-lg: 0 20px 50px -12px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --shadow-glow: 0 0 28px rgba(99, 102, 241, 0.25);
+  --shadow-card-3d: 0 22px 44px -12px rgba(0, 0, 0, 0.7), 0 0 28px rgba(99, 102, 241, 0.14);
+
+  /* Spacing & Sizing Tokens */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --navbar-height: 64px;
+  --sidebar-width: 264px;
+  --sidebar-collapsed-width: 76px;
+  --content-max-width: 1320px;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-2xl: 28px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* Motion Timing */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 160ms;
+  --duration-normal: 260ms;
+  --duration-smooth: 420ms;
+  --duration-cinematic: 700ms;
+}

@@ -1,0 +1,32 @@
+# Multimodal AI Assistant - Dependencies
+
+# Web & API Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+
+# Deep Learning & ML Foundations
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=10.0.0
+accelerate>=0.27.0
+transformers>=4.38.0
+
+# Audio Processing
+faster-whisper>=1.0.0
+
+# Document & Retrieval Processing
+PyMuPDF>=1.23.0
+sentence-transformers>=2.6.0
+
+# Utilities & System Monitoring
+psutil>=5.9.0
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0
+
